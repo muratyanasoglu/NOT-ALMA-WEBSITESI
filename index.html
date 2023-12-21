@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Kütüphane linkleri -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-docx-js/0.3.0/html-docx.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Note Taking Website</h1>
+    </header>
+    <main>
+        <section id="note-input">
+            <h2>Write Your Note</h2>
+            <textarea id="note-text" rows="10" cols="50"></textarea>
+            <button id="save-note">Save Note</button>
+            <button id="download-active-note">Download</button>
+            <div id="active-note-options" class="download-options">
+                <button class="export-pdf">PDF</button>
+                <button class="export-word">Word</button>
+            </div>
+        </section>
+
+        <section id="note-list">
+            <h2>Saved Notes</h2>
+            <ul id="list-of-notes">
+                <!-- Notlar burada listelenecek -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Note Taking Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

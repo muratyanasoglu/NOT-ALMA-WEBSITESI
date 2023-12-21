@@ -1,0 +1,398 @@
+/* Temel Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Not Girişi Stili */
+#note-input {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#note-input h2 {
+    margin-bottom: 10px;
+}
+
+#note-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Not Listesi Stili */
+#note-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#note-list h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Footer Stili */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Diğer stilleriniz burada olacak */
+
+.download-options {
+    display: none;
+    margin-top: 10px;
+}
+
+.download-options button {
+    margin-right: 10px;
+}
+
+/* Diğer stilleriniz burada olacak */
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Notlar arasında boşluk sağlar */
+}
+
+.download-note {
+    margin-left: 10px;
+}
+
+.download-options {
+    display: none;
+    flex-direction: column;
+}
+
+.download-options button {
+    margin-top: 5px;
+}
+
+/* Temel Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Not Girişi Stili */
+#note-input {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#note-input h2 {
+    margin-bottom: 10px;
+}
+
+#note-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 150px; /* Alanı genişlet */
+}
+
+button {
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    outline: none;
+}
+
+button:hover {
+    background: #489548;
+}
+
+/* Not Listesi Stili */
+#note-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#note-list h2 {
+    margin-bottom: 20px;
+}
+
+#note-list ul {
+    list-style-type: none;
+}
+
+#note-list li {
+    background: #f8f8f8;
+    border-left: 5px solid #5cb85c;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+#note-list li button {
+    float: right;
+    margin-left: 10px;
+}
+
+/* İndirme seçenekleri animasyonu */
+.download-options {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.download-note:hover + .download-options {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Footer Stili */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+/* Temel Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Genel Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #005b96; /* Koyu mavi renk tonu */
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 3px solid #0288d1; /* Canlı mavi */
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Ana Bölüm */
+main {
+    margin-top: 40px;
+}
+
+/* Not Girişi Stili */
+#note-input {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#note-input h2 {
+    margin-bottom: 20px;
+    color: #005b96; /* Başlık rengi */
+    font-weight: 300;
+}
+
+#note-text {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    height: 100px; /* Textarea yüksekliği */
+}
+
+button {
+    background: #0288d1; /* Canlı mavi */
+    color: #ffffff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover {
+    background: #026fa1; /* Daha koyu bir mavi */
+    transform: scale(1.05);
+}
+
+/* Not Listesi Stili */
+#note-list ul {
+    list-style-type: none;
+}
+
+#note-list li {
+    background: #f9f9f9;
+    border-left: 5px solid #0288d1; /* Canlı mavi */
+    margin-bottom: 10px;
+    padding: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+#note-list li:hover {
+    transform: scale(1.02);
+    background: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Medya Sorguları */
+@media (max-width: 700px) {
+    header h1,
+    footer p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    #note-text {
+        height: 150px;
+    }
+}
